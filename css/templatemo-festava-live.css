@@ -315,6 +315,16 @@ strong {
   color: var(--custom-btn-bg-color);
 }
 
+ #header{
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: tomato;
+        }
+        #email{
+            padding:200%;
+        }
+
 .navbar-expand-lg .navbar-nav .nav-link.custom-btn:hover,
 .custom-border-btn:hover {
   background: var(--custom-btn-bg-hover-color);

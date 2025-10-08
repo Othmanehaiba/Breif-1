@@ -15,9 +15,18 @@
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="css/templatemo-festava-live.css" rel="stylesheet">
+     
+        
 </head>
 <body>
     
+    <style>
+        .navbar{
+            background-color: black;
+
+        }
+
+    </style>
     <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
@@ -33,7 +42,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="./section_1.html">Home</a>
+                                <a class="nav-link click-scroll" href="./index.html">Home</a>
                             </li>
     
                             <li class="nav-item">
@@ -51,7 +60,9 @@
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="./section_5.html">Pricing</a>
                             </li>
-    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="./contactUs.html">Contact us</a>
+                            </li>
                            
                         </ul>
 
@@ -59,11 +70,13 @@
                     </div>
                 </div>
     </nav>
-    <form action="">
+    
+    <form action="" method="post" class="form">
+        <h1 class="hedear">Contact us</h1>
         <label for="Email">Email:</label><br>
         <input type="email" id="Email" name="Email"><br>
         <label for="Numero">Numero de telephone:</label><br>
-        <input type="number" id="Numero" name="Numero"><br>
+        <input type="tel" id="Numero" name="Numero"><br>
         <p>
             <label for="Message">Message:</label><br>
             <textarea id="Message" name="Message" rows="4" cols="50"></textarea><br>
@@ -203,4 +216,16 @@
         </footer>
 </body>
 </body>
+
+<style>
+    .hedear{
+        color: tomato;
+        padding-left: 100px;
+    }
+    .form{
+        padding-left: 30%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+</style>
 </html>
