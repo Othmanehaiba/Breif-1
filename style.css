@@ -73,3 +73,6 @@
     padding: 1%;
     margin: auto;
 }
+.Message{
+    resize: none;
+}
