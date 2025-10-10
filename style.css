@@ -1,0 +1,77 @@
+.navbar {
+    background-color: black;
+}
+.divv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.body_contact{
+    background-image: url(images/ContactUs-2024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.packs {
+    border-radius: 15px;
+    padding: auto;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.body_buy_ticket {
+    background-color: black;
+    background-image: url(images/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.packs > .normal_pack > p{
+    font-weight: bold;
+    color: black;
+}
+
+.packs > .gold_pack > p{
+    font-weight: bold;
+    color: black;
+}
+
+.packs > .platinum_pack > p{
+    
+    color: black;
+}
+
+.normal_pack {
+    background-color: rgb(255, 255, 255);
+    border: black solid 1px;
+    border-radius: 5%;
+    box-shadow: black;
+    padding: 1%;
+    margin: auto;
+}
+.gold_pack{
+    background-color: rgb(255, 255, 255);
+    border: black solid 1px;
+    border-radius: 5%;
+    box-shadow: black;
+    padding: 1%;
+    margin: auto;
+}
+.platinum_pack{
+    background-color: rgb(255, 255, 255);
+    border: black solid 1px;
+    border-radius: 5%;
+    box-shadow: black;
+    padding: 1%;
+    margin: auto;
+}
